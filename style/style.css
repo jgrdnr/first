@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Bentham&display=swap");
+* {
+  font-family: Bentham;
+}
+html {
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/syringe.cur"),
+    url("https://downloads.totallyfreecursors.com/thumbnails/syringe.gif"), auto;
+}
+body {
+  height: 100vh;
+  background-color: beige;
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/syringe.cur"),
+    url("https://downloads.totallyfreecursors.com/thumbnails/syringe.gif"), auto;
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+}
+
+A:hover {
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-2/sym164.cur), auto !important;
+}
+
+#x {
+  border: 3px solid gray;
+  background-color: white;
+  height: 400px;
+  position: relative;
+}
+
+#x .icon {
+  position: absolute;
+  z-index: 2;
+}
+
+.button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/syringe.cur"),
+    url("https://downloads.totallyfreecursors.com/thumbnails/syringe.gif"), auto;
+  background-color: #ddd;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.virus-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  width: auto;
+  margin-top: 0;
+  margin-left: 300;
+  margin-right: 300;
+  padding: 300 0 15 0;
+}
+
+.virus-content {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: 333px;
+  padding: 0px 300px 14px 300px;
+  position: absolute;
+  z-index: 10;
+}
+
+.virus-info {
+  display: grid;
+  grid-row: 1fr 1fr 1fr;
+  grid-row: auto;
+  align-items: center;
+  justify-content: center;
+  font-family: Bentham;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.virus-answer {
+  display: grid;
+  grid-row: 1fr 1fr 1fr;
+  grid-row: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.wrapper {
+  position: relative;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
