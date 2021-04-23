@@ -36,10 +36,16 @@
 
 let infect = 2
 
+function randomNumber(min, max) {
+  var x = Math.random()*(max-min) + min
+  return x
+}
+
 function addVirus() {
   var src = "img/virus.png";
   for (let i=0; i<infect; i++)
-  {showImage("img/virus.png", 276,110, "Virus")}
+  {var virusSize = randomNumber(30, 200)
+    showImage("img/virus.png", virusSize, virusSize, "Virus")}
   infect = infect*2
 }
 
@@ -61,26 +67,5 @@ function showImage(src, width, height, alt) {
   wrapper.appendChild(img);
   document.body.appendChild(wrapper);
 }
-
-
-// function showLetter() {
-//   var letter = imgsArray[generateRandomForArray()];
-//   $("div").append("<img src='img/virus.png'>");
-//   var left = generateRandom();
-//   var top = generateRandom();
-//   $("div").last().css({"position":"absolute","top": top + "px", "left": left + "px"});
-// }
-
-// function Init() {
-//   picture = document.getElementById("img/virus.png");
-//   spaceW = screen.height - picture.height;
-//   spaceH = screen.width - picture.width;
-//   setInterval(moveIt, 500);
-// }
-
-// function moveIt() {
-//   picture.style.top = Math.round(Math.random() * spaceW) + "100px";
-//   picture.style.left = Math.round(Math.random() * spaceH) + "100px";
-// }
 
 

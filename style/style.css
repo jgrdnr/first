@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Bentham&display=swap");
 * {
   font-family: Bentham;
+  margin: 0;
+  padding: 0;
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/syringe.cur"),
+    url("https://downloads.totallyfreecursors.com/thumbnails/syringe.gif"), auto;
 }
+
 html {
   cursor: url("https://downloads.totallyfreecursors.com/cursor_files/syringe.cur"),
     url("https://downloads.totallyfreecursors.com/thumbnails/syringe.gif"), auto;
 }
+
 body {
   height: 100vh;
   background-color: beige;
-  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/syringe.cur"),
-    url("https://downloads.totallyfreecursors.com/thumbnails/syringe.gif"), auto;
   text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
 }
 
@@ -45,12 +49,16 @@ A:hover {
   border-radius: 16px;
 }
 
-img {
+.virusimg {
+  height: 100px;
+  width: auto;
+}
+/* img {
   width: 30%;
   height: 30%;
   min-width: 100px;
   min-height: 100px;
-}
+} */
 
 .virus-box {
   display: flex;
@@ -98,6 +106,7 @@ img {
   position: fixed;
   bottom: 0;
   right: 0;
+  z-index: 9;
 }
 
 .wrapper {
