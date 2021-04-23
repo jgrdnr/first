@@ -1,0 +1,14 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jessica Gardner <jssgrdnr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
+  },
+
+  "scripts": {
+    "start": "parcel serve -p 8081 index.html --no-cache"
+  }
+}

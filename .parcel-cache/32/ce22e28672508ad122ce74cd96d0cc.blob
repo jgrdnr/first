@@ -69,16 +69,8 @@ function showImage(src, width, height, alt) {
 }
 
 async function confirmed() {
- const countries = ["afghanistan", "albania", "algeria", "andorra", "argentina", "armenia", "australia", "austria", "azerbaijan", "bahamas", "bahrain", "bangladesh", "barbados", "belgium", "brazil", "chad", "czechia", "egypt", "jamaica", "kenya", "kuwait", "lebanon", "liechtenstein", "madagascar", "maldives", "micronesia", "mongolia", "mozambique", "netherlands", "niger", "oman", "poland", "russia", "united kingdom", "uzbekistan", "yemen", "zambia"];
- var randomIndex =  Math.floor(Math.random()*countries.length);
- const cases = await fetch("https://covid19.mathdro.id/api/countries/" + countries[randomIndex])
- .then(result=>result.json())
- .then(data=>{
-   const confirm = data.confirmed.value
-   console.log(confirm)
-   console.log(countries[randomIndex])
-   document.getElementById("country").innerText = countries[randomIndex]
-   document.getElementById("cases").innerText = confirm
-
- })
+ const cases = await fetch("https://covid19.mathdro.id/api/countries/")
+ console.log(cases)
 }
+
+confirmed()

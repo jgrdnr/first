@@ -6,30 +6,25 @@
   cursor: url("https://downloads.totallyfreecursors.com/cursor_files/syringe.cur"),
     url("https://downloads.totallyfreecursors.com/thumbnails/syringe.gif"), auto;
 }
-
 html {
   cursor: url("https://downloads.totallyfreecursors.com/cursor_files/syringe.cur"),
     url("https://downloads.totallyfreecursors.com/thumbnails/syringe.gif"), auto;
 }
-
 body {
   height: 100vh;
   background-color: beige;
   text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
 }
-
 #x {
   border: 3px solid gray;
   background-color: white;
   height: 400px;
   position: relative;
 }
-
 #x .icon {
   position: absolute;
   z-index: 2;
 }
-
 button#floatingvirus {
   background: none;
   border: none;
@@ -41,11 +36,9 @@ button#floatingvirus {
   display: inline-block;
   margin: 4px 2px;
 }
-
 button#confirm-cases {
   max-width: 300px;
 }
-
 button#reset {
   background: none;
   border: none;
@@ -53,12 +46,10 @@ button#reset {
   text-decoration: none;
   font-size: 1.5rem;
 }
-
 .virusimg {
   height: 100px;
   width: auto;
 }
-
 .virus-box {
   display: flex;
   align-items: center;
@@ -70,7 +61,6 @@ button#reset {
   margin-right: 300;
   padding: 300 0 15 0;
 }
-
 .virus-content {
   animation-name: floating;
   animation-duration: 3s;
@@ -81,7 +71,6 @@ button#reset {
   position: absolute;
   z-index: 10;
 }
-
 .virus-info {
   display: grid;
   grid-row: 1fr 1fr 1fr;
@@ -92,7 +81,6 @@ button#reset {
   font-size: 45px;
   font-weight: bold;
 }
-
 .virus-answer {
   display: grid;
   grid-row: 1fr 1fr 1fr;
@@ -100,31 +88,22 @@ button#reset {
   align-items: center;
   justify-content: center;
 }
-
 .virus-cases {
   display: grid;
   grid-row: 1fr;
   align-items: center;
   justify-content: center;
 }
-
-.country-cases {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .reset {
   position: fixed;
   bottom: 0;
   right: 0;
   z-index: 9;
 }
-
 .wrapper {
   position: relative;
+  z-index: 8;
 }
-
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
@@ -136,3 +115,5 @@ button#reset {
     transform: translate(0, -0px);
   }
 }
+
+/*# sourceMappingURL=index.HASH_REF_eed7cbb8ae19872bf0e5030f90888ec7.css.map */

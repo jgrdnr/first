@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>🍦 ⋆ 🍩  🎀  𝒸🌞𝓇♡𝓃𝒶  🎀  🍩 ⋆ 🍦</title>
+    <link rel="stylesheet" type="text/css" href="216600ebf27d646b2bdd3a5d12e0e9b7">
+    <link rel="shortcut icon" href="884fde7f04e2ce662bbb29e6e655be64" type="image/x-icon">  
+    <script src="6e03fc8f7755e0659099adc26d0d3fc6" data-parcel-key="842c90b99244409e3fd47258e491307b">
+  </script>
+</head>
+<body>
+  <div id="img_holder" class="img_holder">
+    <img src="#" class="icon" hidden="hidden" id="template">
+    <div class="virus-box">
+      <div class="virus-content">
+        <button id="floatingvirus" onclick="addVirus()"><img class="virusimg" src="eb9c5dfde4ace7e5a8f80229a3e5d573"></button>
+      </div>
+    </div>
+    <div class="virus-cases">
+      <button id="confirm-cases" onclick="confirmed()">Random Cases</button>
+      <p><span id="country"></span> - <span id="cases"></span></p>
+       </div>
+  <div class="reset">
+    <button id="reset" onclick="window.location.reload();">RESET</button>
+  </div>
+</div>
+</body>
+    </html>
